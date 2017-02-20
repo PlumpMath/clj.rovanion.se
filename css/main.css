@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Varela Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Varela Round'), local('VarelaRound-Regular'), url('../fonts/varela-round.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #222;
+    font-family: 'Varela Round', Helvetica, sans-serif;
+    font-weight: 200;
+}
+h1 {
+    font-size: 3em;
+    clear: left;
+    margin: 0.5em;
+}
+h2 {
+    font-size: 2em;
+    margin: 32px;
+}
+h3 {
+    font-size: 1.4em;
+}
+h5 {
+	margin: 0;
+}
+
+html {
+    height: 100%;
+}
+body {
+    background: radial-gradient(circle, #fff, #eee, #aaa);
+    min-height: 100%;
+    height: 1px;
+}
+
+main {
+    display: flex;
+    justify-content:center;
+		flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+div {
+	margin: 2em;
+}
+p {
+	font-family: sans-serif;
+}
+.maxwidth {
+	max-width: 30em;
+}
