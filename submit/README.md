@@ -1,6 +1,6 @@
-# submit
+# A small program for receiving submit data
 
-FIXME
+Writes the submitted adresses to file and sends it to an email adress.
 
 ## Prerequisites
 
@@ -12,8 +12,8 @@ You will need [Leiningen][] 2.0.0 or above installed.
 
 To start a web server for the application, run:
 
-    lein ring server
+    lein ring server-headless
 
 ## License
 
-Copyright © 2017 FIXME
+Copyright © 2017 Rovanion Luckey
